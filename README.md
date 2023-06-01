@@ -8,9 +8,11 @@ Virtual Paint is an application developed using Python and OpenCV2. It allows yo
 
 -Identify the color range of the pen using the Find_Color_Area code.
 
--Add the colors you detect to the myColors list in Virtual_Paint and add the color you want to draw in that color range to the myColorValues list
-
 ![Ekran görüntüsü 2023-06-01 125632](https://github.com/CyclopsGames1453/Virtual_Paint/assets/77069289/108b0530-6165-4524-980e-b4b451d9527b)
+
+-Add the colors you detect to the myColors list in Virtual_Paint and add the color you want to draw in that color range to the myColorValues list.
+
+![Ekran görüntüsü 2023-06-01 131750](https://github.com/CyclopsGames1453/Virtual_Paint/assets/77069289/4cd9ab51-c5cf-469a-90b2-4c1655d818bc)
 
 -It applies image processing techniques to detect the desired object, usually a colored marker, based on its color or shape.
 
