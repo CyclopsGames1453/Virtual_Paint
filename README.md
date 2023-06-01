@@ -4,6 +4,8 @@ Virtual Paint is an application developed using Python and OpenCV2. It allows yo
 # Here's how the application works:
 -The program uses the OpenCV library to capture video frames from the camera connected to your computer.
 
+-The program uses the numpy library for mathematical operations.
+
 -Identify the color range of the pen using the Find_Color_Area code.
 
 -Add the colors you detect to the myColors list in Virtual_Paint and add the color you want to draw in that color range to the myColorValues list
