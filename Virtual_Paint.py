@@ -7,7 +7,7 @@ frameWidth = 640
 frameHeight = 480
 
 #set the camera
-url = 0
+url = "https://192.168.1.3:8080/video"
 
 #read camera and set camera resolution
 cam = cv2.VideoCapture(url)
@@ -73,7 +73,9 @@ while cam.isOpened():
     if not ret:
         print("! Camera cannot be read !")
         break
-        
+    
+    cv2.resize(frame,(frameWidth,frameHeight))
+
     #paint canvas
     imgResult = frame.copy()
     newPoints = findColor(frame,myColors)
