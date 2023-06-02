@@ -7,7 +7,7 @@ frameWidth = 640
 frameHeight = 480
 
 #set the camera
-url = "https://192.168.1.3:8080/video"
+url = 0
 
 #read camera and set camera resolution
 cam = cv2.VideoCapture(url)
