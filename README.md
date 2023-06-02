@@ -1,8 +1,8 @@
 # Virtual_Paint
-Virtual Paint is an application developed using Python and OpenCV2. It allows you to create digital paintings on your computer screen by tracking the movements of an object, typically a colored marker, in front of a camera.
+Virtual Paint is an application developed using Python , OpenCV2 and Numpy. It allows you to create digital paintings on your computer screen by tracking the movements of an object, typically a colored marker, in front of a camera.
 
 # Here's how the application works:
--The program uses the OpenCV library to capture video frames from the camera connected to your computer.
+-The program uses the OpenCV library to capture and process video frames from the camera connected to your computer.
 
 -The program uses the numpy library for mathematical operations.
 
