@@ -89,13 +89,15 @@ while cam.isOpened():
 
     cv2.imshow("frame",imgResult)
 
+    key = cv2.waitKey(30)
+
     #It reset paint when you press the r key.
-    if  cv2.waitKey(1) & 0xFF == ord("r"):
+    if  key & 0xFF == ord("r"):
         print("reset my points")
         myPoints = []
 
     #It turns off when you press the q key.
-    elif  cv2.waitKey(1) & 0xFF == ord("q"):
+    elif  key & 0xFF == ord("q"):
         print("logged out")
         break
 
